@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+    background-color: rgb(222, 221, 221);
+    overflow-x: hidden;
+    user-select: none;
+}
+
+@theme {
+  --breakpoint-xs: 390px;
+}
+
+@theme {
+  --breakpoint-xss: 320px;
+}
+
+@media (min-width: 1024px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
